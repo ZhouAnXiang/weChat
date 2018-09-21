@@ -1,0 +1,5 @@
+<!--play.wxml-->
+<view class="score">
+  <input placeholder="请输入商家或美食名称" class="search_input"></input>
+  <input class="search_submit" value="提交"></input>
+</view>

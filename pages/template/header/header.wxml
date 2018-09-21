@@ -1,0 +1,8 @@
+<!--template.wxml-->
+<!-- <template name="headerBox">  -->
+<view class='header'>
+    <image class='header-so' mode="{{item.mode}}" src="{{search}}"></image>
+    <view class='headerName'>名称</view>
+    <view class='login' bindtap="clickLogoFoot">登录 | 注册</view>
+</view>
+<!-- <template> -->

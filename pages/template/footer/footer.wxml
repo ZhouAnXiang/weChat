@@ -1,0 +1,22 @@
+
+<!-- <template name="footerBox">  -->
+  <view class="line"   >
+  <!-- wx:for-items="{{array}}" wx:for-item="item" wx:key="key" -->
+    <view class="blocks-foot" bindtap="clickDetail" >
+        <image style="width: 20px; height: 20px; background-color: #eeeeee;" mode="{{item.mode}}" src="{{srcWaima}}"></image>
+      <text >外卖</text>
+    </view>
+    <view class="blocks-foot" bindtap="clickEndless">
+    <image style="width: 20px; height: 20px; background-color: #eeeeee;" mode="{{item.mode}}" src="{{srcSo}}"></image>
+      <text>搜索</text>
+    </view>
+    <view class="blocks-foot" bindtap="clickTime">
+    <image style="width: 20px; height: 20px; background-color: #eeeeee;" mode="{{item.mode}}" src="{{srcList}}"></image>
+      <text>订单</text>
+    </view>
+    <view class="blocks-foot" bindtap="clickLogo">
+    <image style="width: 20px; height: 20px; background-color: #eeeeee;" mode="{{item.mode}}" src="{{srcUser}}"></image>
+      <text>我的</text>
+    </view>
+  </view>
+<!-- <template> -->
