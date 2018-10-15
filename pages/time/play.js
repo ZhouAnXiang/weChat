@@ -2,7 +2,7 @@
 var app = getApp()
 Page({
   data: {
-    typeName: '计时模式',
+    typeName: '倒计时',
     score: 0,
     time: 60,
     shouldStop: false,
