@@ -20,22 +20,26 @@
       {
         "pagePath": "pages/index/index",
         "text": "首页",
-        "iconPath":"resources/common/icon-waima.jpg"
+        "iconPath":"resources/common/icon-waima.jpg",
+        "selectedIconPath":"resources/common/icon-waima-h.jpg"
       },
       {
         "pagePath": "pages/endless/play",
         "text": "搜索",
-        "iconPath": "resources/common/icon-so.jpg"
+        "iconPath": "resources/common/icon-so.jpg",
+        "selectedIconPath": "resources/common/icon-so-h.jpg"
       },
       {
         "pagePath": "pages/time/play",
         "text": "订单",
-        "iconPath": "resources/common/icon-list.jpg"
+        "iconPath": "resources/common/icon-list.jpg",
+        "selectedIconPath": "resources/common/icon-list-h.jpg"
       },
       {
         "pagePath": "pages/end/end",
         "text": "我的",
-        "iconPath": "resources/common/icon-user.jpg"
+        "iconPath": "resources/common/icon-user.jpg",
+        "selectedIconPath": "resources/common/icon-user-h.jpg"
       }
     ]
   }

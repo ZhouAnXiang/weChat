@@ -1,5 +1,6 @@
 <!--index.wxml-->
 <include src='../template/header/header.wxml' />
+<!-- 轮播图 -->
 <view class="container">
   <view class="page-body">
     <view class="page-section page-section-spacing swiper">
@@ -8,37 +9,37 @@
           <swiper-item>
             <view class='carousel'>
               <view class="blocks">
-                <image style="width: 20px; height: 20px; background-color: #eeeeee;" mode="{{item.mode}}" src="{{srcList}}"></image>
+                <image style="width: 20px; height: 20px; background-color: #eeeeee;" mode="{{item.mode}}" src="{{sweetmeats}}"></image>
                 <text>甜品饮品</text>
               </view>
               <view class="blocks">
-                <image style="width: 20px; height: 20px; background-color: #eeeeee;" mode="{{item.mode}}" src="{{srcList}}"></image>
+                <image style="width: 20px; height: 20px; background-color: #eeeeee;" mode="{{item.mode}}" src="{{supermarket}}"></image>
                 <text>商超便利</text>
               </view>
               <view class="blocks">
-                <image style="width: 20px; height: 20px; background-color: #eeeeee;" mode="{{item.mode}}" src="{{srcList}}"></image>
+                <image style="width: 20px; height: 20px; background-color: #eeeeee;" mode="{{item.mode}}" src="{{food}}"></image>
                 <text>美食</text>
               </view>
               <view class="blocks">
-                <image style="width: 20px; height: 20px; background-color: #eeeeee;" mode="{{item.mode}}" src="{{srcList}}"></image>
+                <image style="width: 20px; height: 20px; background-color: #eeeeee;" mode="{{item.mode}}" src="{{jiancan}}"></image>
                 <text>简餐</text>
               </view>
             </view>
             <view class='carousel'>
               <view class="blocks">
-                <image style="width: 20px; height: 20px; background-color: #eeeeee;" mode="{{item.mode}}" src="{{srcList}}"></image>
+                <image style="width: 20px; height: 20px; background-color: #eeeeee;" mode="{{item.mode}}" src="{{new_shop}}"></image>
                 <text>新品特惠</text>
               </view>
               <view class="blocks">
-                <image style="width: 20px; height: 20px; background-color: #eeeeee;" mode="{{item.mode}}" src="{{srcList}}"></image>
+                <image style="width: 20px; height: 20px; background-color: #eeeeee;" mode="{{item.mode}}" src="{{express}}"></image>
                 <text>准时达</text>
               </view>
               <view class="blocks">
-                <image style="width: 20px; height: 20px; background-color: #eeeeee;" mode="{{item.mode}}" src="{{srcList}}"></image>
+                <image style="width: 20px; height: 20px; background-color: #eeeeee;" mode="{{item.mode}}" src="{{breaker}}"></image>
                 <text>预定早餐</text>
               </view>
               <view class="blocks">
-                <image style="width: 20px; height: 20px; background-color: #eeeeee;" mode="{{item.mode}}" src="{{srcList}}"></image>
+                <image style="width: 20px; height: 20px; background-color: #eeeeee;" mode="{{item.mode}}" src="{{recommend}}"></image>
                 <text>土豪推荐</text>
               </view>
             </view>
@@ -84,6 +85,132 @@
         </block>
       </swiper>
     </view>
+  </view>
+</view>
+<!-- 列表 -->
+<view class='body-list'>
+  <image style="width: 20px; height: 20px; background-color: #eeeeee;" mode="{{item.mode}}" src="{{shopping}}"></image>
+  <view class='title-list'> 附近商家</view>
+  <view>
+    <ul>
+      <li data-v-2df9c5b6="" class="shop_li">
+        <section data-v-2df9c5b6="">
+          <image style="width: 54px; height: 54px; background-color: #eeeeee;" mode="{{item.mode}}" src="{{merchant}}"></image>
+        </section>
+        <hgroup data-v-2df9c5b6="" class="shop_right">
+          <header data-v-2df9c5b6="" class="shop_detail_header">
+            <span data-v-2df9c5b6="" class="shop_title ellipsis premium">效果演示</span>
+            <ul data-v-2df9c5b6="" class="shop_detail_ul">
+              <li data-v-2df9c5b6="" class="supports">保</li>
+              <li data-v-2df9c5b6="" class="supports">准</li>
+              <li data-v-2df9c5b6="" class="supports">票</li>
+            </ul>
+          </header>
+          <h5 data-v-2df9c5b6="" class="rating_order_num">
+            <span data-v-2df9c5b6="" class="rating_order_num_left">
+              <span data-v-2df9c5b6="" class="c">4.7</span>
+              <span data-v-2df9c5b6="" class="order_section">
+                月售106单
+              </span>
+            </span>
+            <span data-v-2df9c5b6="" class="rating_order_num_right">
+              <span data-v-2df9c5b6="" class="delivery_style delivery_left">蜂鸟专送</span>
+              <span data-v-2df9c5b6="" class="delivery_style delivery_right">准时达</span>
+            </span>
+          </h5>
+          <h5 data-v-2df9c5b6="" class="fee_distance">
+            <p data-v-2df9c5b6="" class="fee">
+              ¥20起送
+              <span data-v-2df9c5b6="" class="segmentation">/</span>
+              配送费约¥5
+            </p>
+            <p data-v-2df9c5b6="" class="distance_time">
+              <span data-v-2df9c5b6="">1045.8公里</span>
+              <span data-v-2df9c5b6="" class="segmentation">/</span>
+              <span data-v-2df9c5b6="" class="order_time">15小时12分钟</span>
+            </p>
+          </h5>
+        </hgroup>
+      </li>
+      <li data-v-2df9c5b6="" class="shop_li">
+        <section data-v-2df9c5b6="">
+          <image style="width: 54px; height: 54px; background-color: #eeeeee;" mode="{{item.mode}}" src="{{merchant}}"></image>
+        </section>
+        <hgroup data-v-2df9c5b6="" class="shop_right">
+          <header data-v-2df9c5b6="" class="shop_detail_header">
+            <span data-v-2df9c5b6="" class="shop_title ellipsis premium">效果演示</span>
+            <ul data-v-2df9c5b6="" class="shop_detail_ul">
+              <li data-v-2df9c5b6="" class="supports">保</li>
+              <li data-v-2df9c5b6="" class="supports">准</li>
+              <li data-v-2df9c5b6="" class="supports">票</li>
+            </ul>
+          </header>
+          <h5 data-v-2df9c5b6="" class="rating_order_num">
+            <span data-v-2df9c5b6="" class="rating_order_num_left">
+              <span data-v-2df9c5b6="" class="c">4.7</span>
+              <span data-v-2df9c5b6="" class="order_section">
+                月售106单
+              </span>
+            </span>
+            <span data-v-2df9c5b6="" class="rating_order_num_right">
+              <span data-v-2df9c5b6="" class="delivery_style delivery_left">蜂鸟专送</span>
+              <span data-v-2df9c5b6="" class="delivery_style delivery_right">准时达</span>
+            </span>
+          </h5>
+          <h5 data-v-2df9c5b6="" class="fee_distance">
+            <p data-v-2df9c5b6="" class="fee">
+              ¥20起送
+              <span data-v-2df9c5b6="" class="segmentation">/</span>
+              配送费约¥5
+            </p>
+            <p data-v-2df9c5b6="" class="distance_time">
+              <span data-v-2df9c5b6="">1045.8公里</span>
+              <span data-v-2df9c5b6="" class="segmentation">/</span>
+              <span data-v-2df9c5b6="" class="order_time">15小时12分钟</span>
+            </p>
+          </h5>
+        </hgroup>
+      </li>
+       <li data-v-2df9c5b6="" class="shop_li">
+        <section data-v-2df9c5b6="">
+          <image style="width: 54px; height: 54px; background-color: #eeeeee;" mode="{{item.mode}}" src="{{merchant}}"></image>
+        </section>
+        <hgroup data-v-2df9c5b6="" class="shop_right">
+          <header data-v-2df9c5b6="" class="shop_detail_header">
+            <span data-v-2df9c5b6="" class="shop_title ellipsis premium">效果演示</span>
+            <ul data-v-2df9c5b6="" class="shop_detail_ul">
+              <li data-v-2df9c5b6="" class="supports">保</li>
+              <li data-v-2df9c5b6="" class="supports">准</li>
+              <li data-v-2df9c5b6="" class="supports">票</li>
+            </ul>
+          </header>
+          <h5 data-v-2df9c5b6="" class="rating_order_num">
+            <span data-v-2df9c5b6="" class="rating_order_num_left">
+              <span data-v-2df9c5b6="" class="c">4.7</span>
+              <span data-v-2df9c5b6="" class="order_section">
+                月售106单
+              </span>
+            </span>
+            <span data-v-2df9c5b6="" class="rating_order_num_right">
+              <span data-v-2df9c5b6="" class="delivery_style delivery_left">蜂鸟专送</span>
+              <span data-v-2df9c5b6="" class="delivery_style delivery_right">准时达</span>
+            </span>
+          </h5>
+          <h5 data-v-2df9c5b6="" class="fee_distance">
+            <p data-v-2df9c5b6="" class="fee">
+              ¥20起送
+              <span data-v-2df9c5b6="" class="segmentation">/</span>
+              配送费约¥5
+            </p>
+            <p data-v-2df9c5b6="" class="distance_time">
+              <span data-v-2df9c5b6="">1045.8公里</span>
+              <span data-v-2df9c5b6="" class="segmentation">/</span>
+              <span data-v-2df9c5b6="" class="order_time">15小时12分钟</span>
+            </p>
+          </h5>
+        </hgroup>
+      </li>
+    </ul>
   </view>
 </view>
 
